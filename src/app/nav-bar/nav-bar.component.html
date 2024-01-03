@@ -1,0 +1,16 @@
+<!-- app.component.html -->
+<mat-toolbar class="navbar" [ngClass]="{ scrolled: isScrolled }">
+  <div class="navbar-logo">
+    <img src="../../assets/img/logo.png" alt="My App Logo" />
+  </div>
+  <ul class="navbar-links">
+    <li><a routerLink="/about">About</a></li>
+    <li><a routerLink="/services">Services</a></li>
+    <li><a routerLink="/about">About</a></li>
+    <li><a routerLink="/contact">Blog</a></li>
+  </ul>
+  <div class="navbar-actions">
+    <mat-icon aria-hidden="false" aria-label="Account">person_outline</mat-icon>
+    <mat-icon>shopping_cart</mat-icon>
+  </div>
+</mat-toolbar>
